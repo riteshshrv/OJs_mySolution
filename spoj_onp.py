@@ -22,12 +22,12 @@ def toRPN(a):
 	return ''.join(opd)
 
 if __name__ == '__main__':
-a1='(a+(b*c))'
-a2='((a+b)*(z+x))'
-a3='((a+t)*((b+(a+c))^(c+d)))'
-print(toRPN(a1))
-print(toRPN(a2))
-print(toRPN(a3))
+	a1 = '(a+(b*c))'
+	a2 = '((a+b)*(z+x))'
+	a3 = '((a+t)*((b+(a+c))^(c+d)))'
+	print(toRPN(a1))
+	print(toRPN(a2))
+	print(toRPN(a3))
 
 '''Output:
 abc*+
